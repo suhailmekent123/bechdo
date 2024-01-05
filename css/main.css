@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.mackbook_img {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.searchbar {
+  border: 1px solid #0000003d;
+  border-radius: 30px;
+  position: relative;
+  background: #80808033;
+}
+.searchbar i {
+  position: absolute;
+  left: 12px;
+  top: 11px;
+  font-size: 25px;
+}
+.searchbar input {
+  width: 100%;
+  padding: 10px 50px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background: transparent;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+/* represent css */
+
+.represent_box .title_box {
+  padding: 50px 70px;
+  background: #026294;
+  color: white;
+  border-radius: 50px 50px 0 0;
+  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+.represent_box .icon_box {
+  padding: 50px;
+  background: #c6c7c9;
+  color: white;
+  border-radius: 0 0 250px 250px;
+}
+.represent_box .title_box_reverse {
+  padding: 50px 70px;
+  background: #026294;
+  color: white;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+.represent_box .icon_box_reverse {
+  padding: 50px;
+  background: #c6c7c9;
+  color: white;
+  border-radius: 250px 250px 0 0;
+}
+
+/* represent css */
+
+/* footer */
+
+footer {
+  background: #026495;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social_icon span {
+  border: 2px solid white;
+  width: 30px;
+  padding: 0px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
