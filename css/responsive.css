@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+  section {
+    padding: 30px 0;
+  }
+  .details .question {
+    margin-bottom: 0;
+  }
+}

@@ -1,7 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.breadcrumb .breadcrumb-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button {
+  padding: 12px 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  background: #026495;
+  color: white;
+  border: none;
+}
+[type="file"] {
+  /* Style the color of the message that says 'No file chosen' */
+  color: #878787;
+}
+[type="file"]::-webkit-file-upload-button {
+  background: #026495;
+  border: 2px solid #026495;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
+
+[type="file"]::-webkit-file-upload-button:hover {
+  background: #fff;
+  border: 2px solid #535353;
+  color: #000;
+}
+
+.color_heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #026495;
+}
+.small_headings {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
 }
 
 .mackbook_img {
@@ -31,6 +91,75 @@ body {
   outline: none;
   font-size: 20px;
   background: transparent;
+}
+
+.howwework_box img {
+  width: 170px;
+}
+
+.howwework_box h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.howwework_box p {
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.banner_title span {
+  display: block;
+}
+.cutomers_box img {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.margintp {
+  margin-top: -60px;
+}
+.old_laptop p {
+  line-height: 30px;
+}
+
+.banner_title {
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-top: -16%;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.bg_top {
+  background-image: url(/Bechdo/images/Wave.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg_bottom {
+  background-image: url(/Bechdo/images/Wave_2.png);
+  background-size: cover;
+  background-position: center;
+}
+.main_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.sell_heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer_section ul li {
+  font-size: 18px;
+  line-height: 29px;
 }
 
 /*--------------------------------------------------------------
@@ -66,6 +195,26 @@ body {
   border-radius: 250px 250px 0 0;
 }
 
+.image_blink {
+  position: relative;
+}
+.image_blink .click_here {
+  position: absolute;
+  top: 68px;
+  left: 44%;
+  width: 153px;
+  animation: blinkAnimation 1s infinite alternate;
+}
+
+@keyframes blinkAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* represent css */
 
 /* footer */
@@ -91,3 +240,117 @@ footer ul {
 }
 
 /* footer */
+
+/* specification */
+
+.specification select {
+  width: 100%;
+  padding: 10px;
+  background: #ebebeb;
+}
+.specification label {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.specification .img {
+  width: 100%;
+}
+/* physical */
+
+/* .physicals {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+} */
+.physicals input {
+  width: 60px;
+  height: 40px;
+}
+
+.physicals .img {
+  width: 100%;
+}
+
+/* details */
+
+.details .question {
+  font-size: 20px;
+  font-weight: 600;
+}
+.details .answer {
+  font-size: 20px;
+  font-weight: 500;
+}
+.details .price {
+  font-size: 25px;
+  font-weight: 600;
+  color: red;
+}
+
+.details .img {
+  width: 100%;
+}
+
+/* form */
+
+.form form label {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.form form input {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  width: 100%;
+}
+.form form input[type="checkbox"] {
+  width: 30px;
+  height: 25px;
+}
+.form form .checkbox_label {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form .img {
+  width: 100%;
+}
+
+/* condition */
+
+.pincode_input {
+  padding: 8px;
+}
+
+.condition .img {
+  width: 100%;
+}
+
+/* brands css */
+
+.brands .img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#slider .owl-dots .owl-dot {
+  display: none;
+}
+
+#slider button.owl-prev {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  transition: background-color 0.3s, color 0.3s;
+  left: 0;
+}
+
+#slider button.owl-next {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  transition: background-color 0.3s, color 0.3s;
+  right: 0;
+}
